@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "R2Hotels", "R2Hotels.vcxproj", "{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Debug|x64.ActiveCfg = Debug|x64
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Debug|x64.Build.0 = Debug|x64
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Debug|x86.Build.0 = Debug|Win32
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Release|x64.ActiveCfg = Release|x64
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Release|x64.Build.0 = Release|x64
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Release|x86.ActiveCfg = Release|Win32
+		{AD3DFA26-67CA-47BA-9EC5-555B53206BD8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6837E67F-A0DD-49A7-8728-ED503D2E0B0B}
+	EndGlobalSection
+EndGlobal
