@@ -14,7 +14,7 @@ public:
 		_capacity = size;
 		_size = size;
 	}
-	SimpleVector(const SimpleVector& source): _data(new T[source.Size()]), _capacity(source.Capacity()), _size(source.Size()) {
+	SimpleVector(const SimpleVector& source): _data(new T[source.Capacity()]), _capacity(source.Capacity()), _size(source.Size()) {
 		std::copy(source.begin(), source.end(), begin());
 	}
 
@@ -63,7 +63,7 @@ public:
 
 	void operator=(const SimpleVector& other) {
 		if (_data) {
-			delete _data;
+			delete[] _data;
 		}
 		_data = new T[other.Capacity()];
 		_capacity = other.Capacity();
